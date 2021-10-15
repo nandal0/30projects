@@ -1,0 +1,39 @@
+.blog{
+    color: white;
+}
+.card .card-image {
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+.card .card-content p {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+}
+.card-content p{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 160%;
+    display:-webkit-box;
+    overflow:hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.card .card-title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #ffab40;
+    margin-right: 24px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
+    margin-left: 45rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}

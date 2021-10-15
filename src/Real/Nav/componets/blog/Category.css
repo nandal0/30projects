@@ -1,0 +1,21 @@
+.content {
+    color:white;
+
+}
+.category{
+    color:white;
+    margin: 3rem 10rem;
+}
+
+.txt {
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.b {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}

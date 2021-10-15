@@ -1,0 +1,28 @@
+.c{
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    
+    
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: .5rem 0 1rem 0;
+}
+
+.g{
+    display:grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-column: center-start / center-end;
+    grid-gap: 2rem;
+    align-items: start;
+}
+
+.container{
+    display:grid;
+}

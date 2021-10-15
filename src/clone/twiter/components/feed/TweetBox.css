@@ -1,0 +1,18 @@
+.tweetbox{
+    border-top: 1px solid black;
+    padding:5px;
+    display: flex;
+}
+
+.tweet_input{
+    padding-left: 20px;
+    display: flex;
+    
+
+}
+.tweet_input > input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+  }

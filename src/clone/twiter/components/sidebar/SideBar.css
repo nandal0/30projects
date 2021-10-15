@@ -1,0 +1,20 @@
+.Twitter{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(21, 54, 43);
+border-radius:25px;
+margin-bottom: 10px;
+}
+
+.sidebar{
+    color: white;
+    flex:0.2;
+    /* margin-top: 20px; */
+    padding-left: 20px;
+    border-right: 1px solid black;
+    /* min-width:130px; */
+    /* margin-left: auto; */
+}
